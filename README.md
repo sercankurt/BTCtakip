@@ -1,7 +1,7 @@
 # BTCtakip
 // BTCtakip
 // BTC tracker
-// Made by Sercan Kurt @TA1AFS
+// Made by Sercan Kurt @TA3KRT
 // 2 0 2 1
 
 // Esp-01 (Esp8266-01)
