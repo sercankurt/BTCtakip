@@ -7,8 +7,8 @@
 LiquidCrystal_I2C lcd(0x27,16, 2);
 ESP8266WiFiMulti WiFiMulti;
 
-const char* ssid = "TA1AFS";
-const char* password = "?sngMuDvk@#";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 int y = 0;
 int sure = 2;
 void setup() {
@@ -152,3 +152,4 @@ if (http.begin(client, "http://api.thingspeak.com/apps/thinghttp/send_request?ap
           lcd.print("TRX:"); 
           lcd.print(payload5); } } 
       http.end(); } }
+
